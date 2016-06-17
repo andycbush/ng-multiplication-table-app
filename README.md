@@ -13,4 +13,4 @@ File structure:
     - images -> folder (place all your images here)
 
     - javascript -> folder (place all your scripts here)
-        - javascript -> app.css -> basic jQuery file structure
+        - javascript -> app.css -> basic jQuery file structure (with details about "How to write JS apps" and "Debugging strategies")

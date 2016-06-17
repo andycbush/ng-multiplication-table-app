@@ -8,7 +8,7 @@ File structure:
 
     - css -> folder (place all your styles here)
         - css -> styles.css -> basic CSS3 file structure
-        - css -> responsive.css -> basic responsive styles file split into 2 parts (top part is desktop first approach; bottom one is mobile first approace); PLEASE CHOOSE ONLY one and delete the other
+        - css -> responsive.css -> basic responsive styles file split into 2 parts (top part is desktop first approach; bottom one is mobile first approach); PLEASE CHOOSE ONLY one and delete the other
 
     - images -> folder (place all your images here)
 

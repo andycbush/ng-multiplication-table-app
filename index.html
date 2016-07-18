@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 
 <head>
-    <title>CHANGE ME</title>
+    <title>Multiplication Table</title>
 
     <!-- the typical metags-->
     <meta charset="utf-8">
@@ -22,19 +22,20 @@
 </head>
 
 <body>
-    <header>
-        <nav></nav>
-    </header>
-
-    <section></section>
-
-    <section></section>
+    <table ng-controller="MultiplicationCtrl as vm">
+        <tr ng-repeat="numberA in vm.numbers">
+            <td ng-repeat="numberB in vm.numbers">
+                {{ numberA * numberB }}
+            </td>
+        </tr>
+    </table>
 
     <footer></footer>
 
     <!-- add all the scripts starting with the external ones and then your own javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" type="text/javascript"></script>
-    <script src="js/app.js" type="text/javascript"></script>
+    <script src="/javascript/myApp.js" type="text/javascript"></script>
 </body>
 
 </html>

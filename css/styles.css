@@ -38,6 +38,14 @@ General styles (General Module, wrapping around the modules bellow)
 
 body {}
 
+td {
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 
 /* -------------------------------------
 Header styles (Main Module)
